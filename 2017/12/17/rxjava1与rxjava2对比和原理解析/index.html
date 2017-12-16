@@ -81,14 +81,14 @@
 
 <meta name="description" content="1.rxjava是什么？rxjava的事件处理模型。  rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。  响应式编程：通过异步数据流的方式进行编程。将我们要处理的事件转化成数据流之后进行异步处理。 函数式编程：把很多运算过程封装成函数（算法封装），直接可以提供使用。rxjava中体现为各种操作符。   关键点  事件流：将事件转化成事件流的方式进行发送。这个流是一个以时间">
 <meta property="og:type" content="article">
-<meta property="og:title" content="rxjava">
+<meta property="og:title" content="rxjava1与rxjava2对比和原理解析">
 <meta property="og:url" content="http://coderboy.com/2017/12/17/rxjava1与rxjava2对比和原理解析/index.html">
 <meta property="og:site_name" content="coderboy">
 <meta property="og:description" content="1.rxjava是什么？rxjava的事件处理模型。  rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。  响应式编程：通过异步数据流的方式进行编程。将我们要处理的事件转化成数据流之后进行异步处理。 函数式编程：把很多运算过程封装成函数（算法封装），直接可以提供使用。rxjava中体现为各种操作符。   关键点  事件流：将事件转化成事件流的方式进行发送。这个流是一个以时间">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-12-16T17:10:23.269Z">
+<meta property="og:updated_time" content="2017-12-16T17:33:29.623Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="rxjava">
+<meta name="twitter:title" content="rxjava1与rxjava2对比和原理解析">
 <meta name="twitter:description" content="1.rxjava是什么？rxjava的事件处理模型。  rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。  响应式编程：通过异步数据流的方式进行编程。将我们要处理的事件转化成数据流之后进行异步处理。 函数式编程：把很多运算过程封装成函数（算法封装），直接可以提供使用。rxjava中体现为各种操作符。   关键点  事件流：将事件转化成事件流的方式进行发送。这个流是一个以时间">
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title>rxjava | coderboy</title>
+  <title>rxjava1与rxjava2对比和原理解析 | coderboy</title>
   
 
 
@@ -185,7 +185,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -195,7 +195,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">rxjava</h1>
+          <h1 class="post-title" itemprop="name headline">rxjava1与rxjava2对比和原理解析</h1>
         
 
         <div class="post-meta">
@@ -259,7 +259,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-17T00:12:04+08:00">
                 2017-12-17
@@ -620,10 +620,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -644,7 +644,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -712,7 +712,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
