@@ -79,16 +79,17 @@
 
 
 
-<meta name="description" content="study hard, work hard">
-<meta property="og:type" content="website">
-<meta property="og:title" content="coderboy">
-<meta property="og:url" content="http://coderboy.com/index.html">
+<meta name="description" content="1.rxjava是什么？rxjava的事件处理模型。  rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。  响应式编程：通过异步数据流的方式进行编程。将我们要处理的事件转化成数据流之后进行异步处理。 函数式编程：把很多运算过程封装成函数（算法封装），直接可以提供使用。rxjava中体现为各种操作符。   关键点  事件流：将事件转化成事件流的方式进行发送。这个流是一个以时间">
+<meta property="og:type" content="article">
+<meta property="og:title" content="rxjava">
+<meta property="og:url" content="http://coderboy.com/2017/12/17/rxjava/index.html">
 <meta property="og:site_name" content="coderboy">
-<meta property="og:description" content="study hard, work hard">
+<meta property="og:description" content="1.rxjava是什么？rxjava的事件处理模型。  rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。  响应式编程：通过异步数据流的方式进行编程。将我们要处理的事件转化成数据流之后进行异步处理。 函数式编程：把很多运算过程封装成函数（算法封装），直接可以提供使用。rxjava中体现为各种操作符。   关键点  事件流：将事件转化成事件流的方式进行发送。这个流是一个以时间">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-12-16T17:10:23.269Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="coderboy">
-<meta name="twitter:description" content="study hard, work hard">
+<meta name="twitter:title" content="rxjava">
+<meta name="twitter:description" content="1.rxjava是什么？rxjava的事件处理模型。  rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。  响应式编程：通过异步数据流的方式进行编程。将我们要处理的事件转化成数据流之后进行异步处理。 函数式编程：把很多运算过程封装成函数（算法封装），直接可以提供使用。rxjava中体现为各种操作符。   关键点  事件流：将事件转化成事件流的方式进行发送。这个流是一个以时间">
 
 
 
@@ -118,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://coderboy.com/"/>
+  <link rel="canonical" href="http://coderboy.com/2017/12/17/rxjava/"/>
 
 
 
 
 
-  <title>coderboy</title>
+  <title>rxjava | coderboy</title>
   
 
 
@@ -143,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -217,408 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://coderboy.com/2017/12/17/My-first-blog/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="coderboy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="coderboy">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/17/My-first-blog/" itemprop="url">My first blog</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-17T00:12:04+08:00">
-                2017-12-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to my blog.</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://coderboy.com/2017/12/17/三亚跟团比较/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="coderboy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="coderboy">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/17/三亚跟团比较/" itemprop="url">三亚跟团比较</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-17T00:12:04+08:00">
-                2017-12-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="1-三亚双飞4日3晚自由行-三亚湾红树林度假世界（木棉酒店），一站式度假体验、特色水上乐园、观景阳台、儿童乐园、行动书屋、多家经济餐厅、含早-—-gt-gt-gt-下文将使用A来代替称呼这个旅游方案"><a href="#1-三亚双飞4日3晚自由行-三亚湾红树林度假世界（木棉酒店），一站式度假体验、特色水上乐园、观景阳台、儿童乐园、行动书屋、多家经济餐厅、含早-—-gt-gt-gt-下文将使用A来代替称呼这个旅游方案" class="headerlink" title="1.三亚双飞4日3晚自由行(三亚湾红树林度假世界（木棉酒店），一站式度假体验、特色水上乐园、观景阳台、儿童乐园、行动书屋、多家经济餐厅、含早)  —&gt;&gt;&gt; 下文将使用A来代替称呼这个旅游方案"></a>1.三亚双飞4日3晚自由行(三亚湾红树林度假世界（木棉酒店），一站式度假体验、特色水上乐园、观景阳台、儿童乐园、行动书屋、多家经济餐厅、含早)  —&gt;&gt;&gt; 下文将使用A来代替称呼这个旅游方案</h2><blockquote>
-<p>行程 </p>
-<ul>
-<li>第一天：深圳出发前往三亚。 三亚湾红树林度假世界（木棉酒店）</li>
-<li>第二天：南山寺—天涯海角—第一市场，游玩景点：<ul>
-<li>南山文化旅游区</li>
-<li>天涯海角风景区</li>
-</ul>
-</li>
-<li>第三天：蜈支洲岛一日游，蜈支洲岛度假中心</li>
-<li>第四天回家</li>
-</ul>
-<p>价格</p>
-<ul>
-<li>一号出发2660起。</li>
-<li>二号出发2910起。</li>
-<li>三号出发2910起。</li>
-<li>四号（中秋）出发2520起。</li>
-<li>五号出发2370起。</li>
-</ul>
-</blockquote>
-<h2 id="2-lt-海南三亚-蜈支洲-亚龙湾-天涯5日游-gt-蜜月闺蜜定制，3晚希尔顿，1晚小月湾独栋别墅，享无边泳池，全程特色餐，24H奔驰接送机，精致度假-—-gt-gt-gt-下文将使用B来代替称呼这个旅游方案"><a href="#2-lt-海南三亚-蜈支洲-亚龙湾-天涯5日游-gt-蜜月闺蜜定制，3晚希尔顿，1晚小月湾独栋别墅，享无边泳池，全程特色餐，24H奔驰接送机，精致度假-—-gt-gt-gt-下文将使用B来代替称呼这个旅游方案" class="headerlink" title="2.&lt;海南三亚-蜈支洲-亚龙湾-天涯5日游&gt;蜜月闺蜜定制，3晚希尔顿，1晚小月湾独栋别墅，享无边泳池，全程特色餐，24H奔驰接送机，精致度假            —&gt;&gt;&gt; 下文将使用B来代替称呼这个旅游方案"></a>2.&lt;海南三亚-蜈支洲-亚龙湾-天涯5日游&gt;蜜月闺蜜定制，3晚希尔顿，1晚小月湾独栋别墅，享无边泳池，全程特色餐，24H奔驰接送机，精致度假            —&gt;&gt;&gt; 下文将使用B来代替称呼这个旅游方案</h2><blockquote>
-<p>行程 </p>
-<ul>
-<li>第一天：深圳出发前往三亚。三亚湾希尔顿欢朋酒店、三亚丽禾酒店</li>
-<li>第二天：酒店 - 亚龙湾沙滩、亚龙湾沙滩 - 蜈支洲、蜈支洲 - 酒店<ul>
-<li>亚龙湾沙滩</li>
-<li>5A级 蜈支洲岛</li>
-<li>牛人户外娱乐之-抓螃蟹</li>
-<li>牛人户外娱乐之-篝火晚会</li>
-<li>住宿：三亚大小洞天小月湾度假酒店、三亚大小洞天小月湾度假酒店</li>
-</ul>
-</li>
-<li>第三天：酒店 - 南山大小洞天<ul>
-<li>5A级 大小洞天景区 </li>
-<li>4A级 天涯海角</li>
-<li>住宿：三亚湾希尔顿欢朋酒店Hampton by Hilton Sanya Bay</li>
-</ul>
-</li>
-<li>第四天：酒店 - 美丽汇、美丽汇 - 呀诺达<ul>
-<li>5A 呀诺达热带雨林</li>
-<li>亚龙湾国际玫瑰谷</li>
-</ul>
-</li>
-<li>第五天回家</li>
-</ul>
-<p>价格</p>
-<ul>
-<li>一号出发4137起。</li>
-<li>二号出发4137起。</li>
-<li>三号出发3849起。</li>
-<li>四号（中秋）出发3849起。</li>
-<li>五号出发2749起。</li>
-</ul>
-</blockquote>
-<h2 id="3-海南三亚-4晚5日游-住海景房-拉网捕鱼-沙滩派对-—-gt-gt-gt-下文将使用C来代替称呼这个旅游方案"><a href="#3-海南三亚-4晚5日游-住海景房-拉网捕鱼-沙滩派对-—-gt-gt-gt-下文将使用C来代替称呼这个旅游方案" class="headerlink" title="3.海南三亚 4晚5日游 住海景房 拉网捕鱼 沙滩派对        —&gt;&gt;&gt; 下文将使用C来代替称呼这个旅游方案"></a>3.海南三亚 4晚5日游 住海景房 拉网捕鱼 沙滩派对        —&gt;&gt;&gt; 下文将使用C来代替称呼这个旅游方案</h2><blockquote>
-<p>行程 </p>
-<ul>
-<li>第一天：深圳出发前往酒店。</li>
-<li>第二天：三亚-分界洲岛-亚龙湾国际玫瑰谷，赠电瓶车-激情大东海沙滩派对。<ul>
-<li>分界洲岛</li>
-<li>亚龙湾国际玫瑰谷</li>
-<li>大东海游乐场</li>
-</ul>
-</li>
-<li>第三天：南山佛教文化苑-天涯海角-夜游三亚湾<ul>
-<li>南山佛教文化苑</li>
-<li>天涯海角</li>
-<li>夜游三亚湾</li>
-</ul>
-</li>
-<li>第四天：美丽商城-海南农垦科技园-黎苗风情村<ul>
-<li>黎苗风情村</li>
-<li>海南农垦万家果热带植物园</li>
-</ul>
-</li>
-<li>第五天回家</li>
-</ul>
-<p>价格</p>
-<ul>
-<li>2880起</li>
-</ul>
-</blockquote>
-<h2 id="4-国庆-lt-海南三亚-蜈支洲-亚龙湾4日游-gt-奢享180度海景连住，纯玩0购物，可升五星一线海景天通，升级专车接机-—-gt-gt-gt-下文将使用D来代替称呼这个旅游方案"><a href="#4-国庆-lt-海南三亚-蜈支洲-亚龙湾4日游-gt-奢享180度海景连住，纯玩0购物，可升五星一线海景天通，升级专车接机-—-gt-gt-gt-下文将使用D来代替称呼这个旅游方案" class="headerlink" title="4.[国庆]&lt;海南三亚-蜈支洲-亚龙湾4日游&gt;奢享180度海景连住，纯玩0购物，可升五星一线海景天通，升级专车接机        —&gt;&gt;&gt; 下文将使用D来代替称呼这个旅游方案"></a>4.[国庆]&lt;海南三亚-蜈支洲-亚龙湾4日游&gt;奢享180度海景连住，纯玩0购物，可升五星一线海景天通，升级专车接机        —&gt;&gt;&gt; 下文将使用D来代替称呼这个旅游方案</h2><blockquote>
-<p>行程 </p>
-<ul>
-<li>第一天：深圳出发前往酒店。入住酒店：三亚帆船港酒店/大卫传奇爱情度假酒店/三亚海湾维景国际大酒店/海上时光/三亚海虹大酒店、三亚明申高尔夫度假酒店(Sanya Mingshen Jinjiang Golf Resort)、三亚半山锦江海景度假酒店（贵宾楼）、三亚天通建国酒店(Sanya Timton International Hotel)</li>
-<li>第二天：酒店 -亚龙湾沙滩、亚龙湾沙滩-天堂森林公园<ul>
-<li>亚龙湾沙滩</li>
-<li>亚龙湾热带天堂森林公园</li>
-<li>住宿：180°海景精选酒店（帆船港/大卫传奇/维景/海上时光/海虹）、三亚明申高尔夫度假酒店(Sanya Mingshen Jinjiang Golf Resort)、三亚天通建国酒店(Sanya Timton International Hotel)、三亚半山锦江海景度假酒店(Sanya Yuhuayuan Hotel)</li>
-</ul>
-</li>
-<li>第三天：蜈支洲岛玩海一天<ul>
-<li>蜈支洲岛</li>
-<li>住宿：180°海景精选酒店（帆船港/大卫传奇/维景/海上时光/海虹）、三亚明申高尔夫度假酒店(Sanya Mingshen Jinjiang Golf Resort)、三亚天通建国酒店(Sanya Timton International Hotel)、三亚半山锦江海景度假酒店(Sanya Yuhuayuan Hotel)</li>
-</ul>
-</li>
-<li>第四天：酒店 - 南山大小洞天、南山大小洞天 - 天涯海角<ul>
-<li>5A级 大小洞天景区</li>
-<li>4A级 天涯海角</li>
-<li>建议选择20：00以后航班，如航班时间较早无法用晚餐，导游现退餐标。导游会安排送机场。</li>
-</ul>
-</li>
-</ul>
-<p>价格</p>
-<ul>
-<li>2927</li>
-</ul>
-</blockquote>
-<h2 id="5-海南三亚4日3晚跟团游-5钻-（赠送玩水礼包：明细：“地中海”潜水-、摩托艇、海上自行车、海上独木舟、激情冲浪板、滩游戏（桃花朵朵开-按摩派对）、海鲜火锅。就等你来high！）—-gt-gt-gt-下文将使用F来代替称呼这个旅游方案"><a href="#5-海南三亚4日3晚跟团游-5钻-（赠送玩水礼包：明细：“地中海”潜水-、摩托艇、海上自行车、海上独木舟、激情冲浪板、滩游戏（桃花朵朵开-按摩派对）、海鲜火锅。就等你来high！）—-gt-gt-gt-下文将使用F来代替称呼这个旅游方案" class="headerlink" title="5.海南三亚4日3晚跟团游(5钻)（赠送玩水礼包：明细：“地中海”潜水 、摩托艇、海上自行车、海上独木舟、激情冲浪板、滩游戏（桃花朵朵开+按摩派对）、海鲜火锅。就等你来high！）—&gt;&gt;&gt; 下文将使用F来代替称呼这个旅游方案"></a>5.海南三亚4日3晚跟团游(5钻)（赠送玩水礼包：明细：“地中海”潜水 、摩托艇、海上自行车、海上独木舟、激情冲浪板、滩游戏（桃花朵朵开+按摩派对）、海鲜火锅。就等你来high！）—&gt;&gt;&gt; 下文将使用F来代替称呼这个旅游方案</h2><blockquote>
-<p>行程 </p>
-<ul>
-<li>第一天：深圳出发前往酒店。三亚君锦滨海酒店 或 三亚国际饭店 或 三亚玉海国际度假酒店</li>
-<li>第二天：爱立方，槟榔谷<ul>
-<li>亚龙湾爱立方</li>
-<li>槟榔谷</li>
-<li>住宿：三亚君锦滨海酒店 或 三亚国际饭店 或 三亚玉海国际度假酒店</li>
-</ul>
-</li>
-<li>第三天：嗨翻蜈支洲岛一整天~(携带泳衣、拖鞋、墨镜、遮阳帽、防晒霜等装备设备。中餐需要自理，带零食)<ul>
-<li>蜈支洲岛</li>
-<li>住宿：三亚君锦滨海酒店 或 三亚国际饭店 或 三亚玉海国际度假酒店</li>
-</ul>
-</li>
-<li>第四天：天涯海角，大小洞天返回温馨的家<ul>
-<li>5A级 大小洞天景区</li>
-<li>4A级 天涯海角</li>
-<li>建议选择20：00以后航班，如航班时间较早无法用晚餐，导游现退餐标。导游会安排送机场。</li>
-</ul>
-</li>
-</ul>
-<p>价格</p>
-<ul>
-<li>2686</li>
-</ul>
-</blockquote>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><blockquote>
-<p>第一个景区</p>
-<ul>
-<li>第一个游玩时间短，游玩景区也相对没有其他那么有意思。</li>
-<li>价格较便宜，但是也没有便宜很多。</li>
-</ul>
-<p>第二个景区</p>
-<ul>
-<li>游玩时间长，游玩景区活动也最多，有篝火晚会，抓螃蟹，热带植物园，活动丰富有意思。</li>
-<li>价格较贵，但是如果能接受5号出发（2749），那就完美。</li>
-</ul>
-<p>第三个景区</p>
-<ul>
-<li>游玩时间长，游玩景区活动多，但是大部分是偏向于观赏类，较适合小清新和装xxx。</li>
-<li>价格便宜。</li>
-</ul>
-<p>优先级排序</p>
-<ul>
-<li>按有趣程度排行： B &gt; C &gt; A</li>
-<li>按消费    排行： A &gt; C &gt; B</li>
-<li>综合      排行： 周五的B &gt; C &gt; B &gt; A</li>
-</ul>
-</blockquote>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -648,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/17/rxjava/" itemprop="url">rxjava</a></h1>
+          <h1 class="post-title" itemprop="name headline">rxjava</h1>
         
 
         <div class="post-meta">
@@ -700,9 +299,7 @@
       
 
       
-        
-          
-            <h2 id="1-rxjava是什么？rxjava的事件处理模型。"><a href="#1-rxjava是什么？rxjava的事件处理模型。" class="headerlink" title="1.rxjava是什么？rxjava的事件处理模型。"></a>1.rxjava是什么？rxjava的事件处理模型。</h2><blockquote>
+        <h2 id="1-rxjava是什么？rxjava的事件处理模型。"><a href="#1-rxjava是什么？rxjava的事件处理模型。" class="headerlink" title="1.rxjava是什么？rxjava的事件处理模型。"></a>1.rxjava是什么？rxjava的事件处理模型。</h2><blockquote>
 <ul>
 <li><p>rxjava是一个函数响应式编程库，通过可观察的异步数据流进行异步编程。</p>
 <ul>
@@ -954,8 +551,6 @@
 </ul>
 </blockquote>
 
-          
-        
       
     </div>
     
@@ -972,140 +567,32 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://coderboy.com/2017/12/16/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="coderboy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="coderboy">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/16/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-16T23:59:35+08:00">
-                2017-12-16
-              </time>
+              <a href="/2017/12/16/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
+              <a href="/2017/12/17/三亚跟团比较/" rel="prev" title="三亚跟团比较">
+                三亚跟团比较 <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -1115,10 +602,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -1126,6 +614,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1146,8 +638,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1191,6 +692,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-rxjava是什么？rxjava的事件处理模型。"><span class="nav-number">1.</span> <span class="nav-text"><a href="#1-rxjava&#x662F;&#x4EC0;&#x4E48;&#xFF1F;rxjava&#x7684;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x6A21;&#x578B;&#x3002;" class="headerlink" title="1.rxjava&#x662F;&#x4EC0;&#x4E48;&#xFF1F;rxjava&#x7684;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x6A21;&#x578B;&#x3002;"></a>1.rxjava&#x662F;&#x4EC0;&#x4E48;&#xFF1F;rxjava&#x7684;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x6A21;&#x578B;&#x3002;</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#rxjava通过扩展的观察者模式来实现，扩展体现在通知观察者的时候不是单一的回调，有主回调onNext，完成回调onCompeted，错误回调onError"><span class="nav-number">1.0.1.</span> <span class="nav-text"><a href="#rxjava&#x901A;&#x8FC7;&#x6269;&#x5C55;&#x7684;&#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x6269;&#x5C55;&#x4F53;&#x73B0;&#x5728;&#x901A;&#x77E5;&#x89C2;&#x5BDF;&#x8005;&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x662F;&#x5355;&#x4E00;&#x7684;&#x56DE;&#x8C03;&#xFF0C;&#x6709;&#x4E3B;&#x56DE;&#x8C03;onNext&#xFF0C;&#x5B8C;&#x6210;&#x56DE;&#x8C03;onCompeted&#xFF0C;&#x9519;&#x8BEF;&#x56DE;&#x8C03;onError" class="headerlink" title="rxjava&#x901A;&#x8FC7;&#x6269;&#x5C55;&#x7684;&#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x6269;&#x5C55;&#x4F53;&#x73B0;&#x5728;&#x901A;&#x77E5;&#x89C2;&#x5BDF;&#x8005;&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x662F;&#x5355;&#x4E00;&#x7684;&#x56DE;&#x8C03;&#xFF0C;&#x6709;&#x4E3B;&#x56DE;&#x8C03;onNext&#xFF0C;&#x5B8C;&#x6210;&#x56DE;&#x8C03;onCompeted&#xFF0C;&#x9519;&#x8BEF;&#x56DE;&#x8C03;onError."></a>rxjava&#x901A;&#x8FC7;&#x6269;&#x5C55;&#x7684;&#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x6269;&#x5C55;&#x4F53;&#x73B0;&#x5728;&#x901A;&#x77E5;&#x89C2;&#x5BDF;&#x8005;&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x662F;&#x5355;&#x4E00;&#x7684;&#x56DE;&#x8C03;&#xFF0C;&#x6709;&#x4E3B;&#x56DE;&#x8C03;onNext&#xFF0C;&#x5B8C;&#x6210;&#x56DE;&#x8C03;onCompeted&#xFF0C;&#x9519;&#x8BEF;&#x56DE;&#x8C03;onError.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#在rxjava的观察者模式中存在的3个角色：Observable，observer（大部分时候使用的是包装后的subscriber），（T）event事件流。observable将需要处理的事件转化成可观察的事件流，在需要的时候，observable将事件流发送给observer进行处理。"><span class="nav-number">1.0.2.</span> <span class="nav-text"><a href="#&#x5728;rxjava&#x7684;&#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x4E2D;&#x5B58;&#x5728;&#x7684;3&#x4E2A;&#x89D2;&#x8272;&#xFF1A;Observable&#xFF0C;observer&#xFF08;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x5019;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x5305;&#x88C5;&#x540E;&#x7684;subscriber&#xFF09;&#xFF0C;&#xFF08;T&#xFF09;event&#x4E8B;&#x4EF6;&#x6D41;&#x3002;observable&#x5C06;&#x9700;&#x8981;&#x5904;&#x7406;&#x7684;&#x4E8B;&#x4EF6;&#x8F6C;&#x5316;&#x6210;&#x53EF;&#x89C2;&#x5BDF;&#x7684;&#x4E8B;&#x4EF6;&#x6D41;&#xFF0C;&#x5728;&#x9700;&#x8981;&#x7684;&#x65F6;&#x5019;&#xFF0C;observable&#x5C06;&#x4E8B;&#x4EF6;&#x6D41;&#x53D1;&#x9001;&#x7ED9;observer&#x8FDB;&#x884C;&#x5904;&#x7406;&#x3002;" class="headerlink" title="&#x5728;rxjava&#x7684;&#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x4E2D;&#x5B58;&#x5728;&#x7684;3&#x4E2A;&#x89D2;&#x8272;&#xFF1A;Observable&#xFF0C;observer&#xFF08;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x5019;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x5305;&#x88C5;&#x540E;&#x7684;subscriber&#xFF09;&#xFF0C;&#xFF08;T&#xFF09;event&#x4E8B;&#x4EF6;&#x6D41;&#x3002;observable&#x5C06;&#x9700;&#x8981;&#x5904;&#x7406;&#x7684;&#x4E8B;&#x4EF6;&#x8F6C;&#x5316;&#x6210;&#x53EF;&#x89C2;&#x5BDF;&#x7684;&#x4E8B;&#x4EF6;&#x6D41;&#xFF0C;&#x5728;&#x9700;&#x8981;&#x7684;&#x65F6;&#x5019;&#xFF0C;observable&#x5C06;&#x4E8B;&#x4EF6;&#x6D41;&#x53D1;&#x9001;&#x7ED9;observer&#x8FDB;&#x884C;&#x5904;&#x7406;&#x3002;"></a>&#x5728;rxjava&#x7684;&#x89C2;&#x5BDF;&#x8005;&#x6A21;&#x5F0F;&#x4E2D;&#x5B58;&#x5728;&#x7684;3&#x4E2A;&#x89D2;&#x8272;&#xFF1A;Observable&#xFF0C;observer&#xFF08;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x5019;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x5305;&#x88C5;&#x540E;&#x7684;subscriber&#xFF09;&#xFF0C;&#xFF08;T&#xFF09;event&#x4E8B;&#x4EF6;&#x6D41;&#x3002;observable&#x5C06;&#x9700;&#x8981;&#x5904;&#x7406;&#x7684;&#x4E8B;&#x4EF6;&#x8F6C;&#x5316;&#x6210;&#x53EF;&#x89C2;&#x5BDF;&#x7684;&#x4E8B;&#x4EF6;&#x6D41;&#xFF0C;&#x5728;&#x9700;&#x8981;&#x7684;&#x65F6;&#x5019;&#xFF0C;observable&#x5C06;&#x4E8B;&#x4EF6;&#x6D41;&#x53D1;&#x9001;&#x7ED9;observer&#x8FDB;&#x884C;&#x5904;&#x7406;&#x3002;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#各部分实现"><span class="nav-number">1.0.3.</span> <span class="nav-text"><a href="#&#x5404;&#x90E8;&#x5206;&#x5B9E;&#x73B0;" class="headerlink" title="&#x5404;&#x90E8;&#x5206;&#x5B9E;&#x73B0;"></a>&#x5404;&#x90E8;&#x5206;&#x5B9E;&#x73B0;</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-操作符总览"><span class="nav-number">2.</span> <span class="nav-text"><a href="#2-&#x64CD;&#x4F5C;&#x7B26;&#x603B;&#x89C8;" class="headerlink" title="2.&#x64CD;&#x4F5C;&#x7B26;&#x603B;&#x89C8;"></a>2.&#x64CD;&#x4F5C;&#x7B26;&#x603B;&#x89C8;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-线程调度-subscribeOn和observeOn"><span class="nav-number">3.</span> <span class="nav-text"><a href="#3-&#x7EBF;&#x7A0B;&#x8C03;&#x5EA6;-subscribeOn&#x548C;observeOn" class="headerlink" title="3.&#x7EBF;&#x7A0B;&#x8C03;&#x5EA6;  subscribeOn&#x548C;observeOn"></a>3.&#x7EBF;&#x7A0B;&#x8C03;&#x5EA6;  subscribeOn&#x548C;observeOn</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-自定义操作符"><span class="nav-number">4.</span> <span class="nav-text"><a href="#4-&#x81EA;&#x5B9A;&#x4E49;&#x64CD;&#x4F5C;&#x7B26;" class="headerlink" title="4.&#x81EA;&#x5B9A;&#x4E49;&#x64CD;&#x4F5C;&#x7B26;"></a>4.&#x81EA;&#x5B9A;&#x4E49;&#x64CD;&#x4F5C;&#x7B26;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-自定义插件-对observable生命周期进行代理"><span class="nav-number">5.</span> <span class="nav-text"><a href="#5-&#x81EA;&#x5B9A;&#x4E49;&#x63D2;&#x4EF6;-&#x5BF9;observable&#x751F;&#x547D;&#x5468;&#x671F;&#x8FDB;&#x884C;&#x4EE3;&#x7406;" class="headerlink" title="5.&#x81EA;&#x5B9A;&#x4E49;&#x63D2;&#x4EF6; &#x5BF9;observable&#x751F;&#x547D;&#x5468;&#x671F;&#x8FDB;&#x884C;&#x4EE3;&#x7406;"></a>5.&#x81EA;&#x5B9A;&#x4E49;&#x63D2;&#x4EF6; &#x5BF9;observable&#x751F;&#x547D;&#x5468;&#x671F;&#x8FDB;&#x884C;&#x4EE3;&#x7406;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-rxjava1和2的区别"><span class="nav-number">6.</span> <span class="nav-text"><a href="#6-rxjava1&#x548C;2&#x7684;&#x533A;&#x522B;" class="headerlink" title="6.rxjava1&#x548C;2&#x7684;&#x533A;&#x522B;"></a>6.rxjava1&#x548C;2&#x7684;&#x533A;&#x522B;</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1324,6 +841,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
